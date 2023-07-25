@@ -10,8 +10,62 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/a64e1ce36a.js" crossorigin="anonymous"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'fruit-primary': '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+
 </head>
 <body>
-    
+  <header>
+   <!-- navbar section start -->
+  <nav>
+    <section>
+        <div class="navbar bg-base-100 max-w-screen-xl mx-auto my-12 px-10 bg-[#F85559] rounded-full">
+            <div class="navbar-start">             
+              <div class="flex gap-5 text-left text-white">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Shop</p>
+                <p>All Fruits</p>
+              </div>  
+            </div>
+
+           <div class="navbar-center hidden lg:flex gap-5">
+              <img src="./images/logo.png" alt="">
+              <h3 class="text-xl md:text-2 lg:text-3xl text-white">Fruit Brust</h3>
+            </div>
+
+            <div class="navbar-end">
+             <div class="relative">
+                <input class="rounded-2xl px-5 py-2 " type="text" placeholder="Search here">
+                <i class="absolute right-5 top-3 fa-solid fa-magnifying-glass"></i>
+             </div>
+            </div>
+          </div>
+    </section>
+</nav>
+<!-- navbar section end -->
+
+</header>
+<main>
+
+
+</main>
+<footer>
+
+
+</footer>
 </body>
 </html>
